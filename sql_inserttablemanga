@@ -1,0 +1,12 @@
+INSERT INTO `anime`.`manga`
+(
+`titre`,
+`genre`,
+`anneeParu`,
+`auteur`)
+VALUES
+('Yuyu Hakusho', 'shonen', 1990, 'Yoshihiro Togashi'),
+('La rose de Versailles', 'shojo', 1972, 'Riyoko Ikeda'),
+('Kenshin le vagabond', 'shonen', 1994, 'Nobuhiro Watsuki'),
+('Quartier lointain', 'seinen', 1998 , 'Jiro Taniguchi'),
+('Vagabond', 'seinen', 1998 , 'Takehiko Inoue');
