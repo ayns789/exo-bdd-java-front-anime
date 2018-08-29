@@ -1,0 +1,7 @@
+USE anime;
+CREATE TABLE formctc (
+ID_contact INT NOT NULL AUTO_INCREMENT,
+email VARCHAR(40),
+nom VARCHAR(40),
+mdp VARCHAR(40),
+PRIMARY KEY (ID_contact));
