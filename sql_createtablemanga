@@ -1,0 +1,9 @@
+USE anime;
+CREATE TABLE manga (
+ID_manga INT NOT NULL AUTO_INCREMENT,
+titre VARCHAR(40),
+genre VARCHAR(40),
+anneeParu INTEGER,
+auteur VARCHAR(40),
+PRIMARY KEY(ID_manga)
+);
